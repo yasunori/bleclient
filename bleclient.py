@@ -5,6 +5,7 @@ class BleClient:
     address = ''
     write_characteristic_id = ''
     read_characteristic_id = ''
+    loop = None
 
     def __init__(self, address, write_characteristic_id, read_characteristic_id):
         self.address = address
